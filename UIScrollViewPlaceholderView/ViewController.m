@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
+#import <ReactiveCocoa.h>
 
 @interface ViewController ()
 
@@ -17,13 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(90, 90, 200, 30)];
+    [self.view addSubview:button];
+    [button setTitle:@"去下一页" forState:UIControlStateNormal];
+    button.backgroundColor = [UIColor redColor];
+    [[button rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+        SecondViewController *secondVC = [[SecondViewController alloc] init];
+        [self.navigationController pushViewController:secondVC animated:YES];
+    }];
 }
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

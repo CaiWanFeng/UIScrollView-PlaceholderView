@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC10838FED6760BAF17DA93 /* libPods-UIScrollViewPlaceholderView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C706A5139170E372F2B7833E /* libPods-UIScrollViewPlaceholderView.a */; };
 		D9DCF3531F6E68B800FC2858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF3521F6E68B800FC2858 /* main.m */; };
 		D9DCF3561F6E68B800FC2858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF3551F6E68B800FC2858 /* AppDelegate.m */; };
 		D9DCF3591F6E68B800FC2858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF3581F6E68B800FC2858 /* ViewController.m */; };
 		D9DCF35C1F6E68B800FC2858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF35A1F6E68B800FC2858 /* Main.storyboard */; };
 		D9DCF35E1F6E68B800FC2858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF35D1F6E68B800FC2858 /* Assets.xcassets */; };
 		D9DCF3611F6E68B800FC2858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF35F1F6E68B800FC2858 /* LaunchScreen.storyboard */; };
+		D9DCF36B1F6E694900FC2858 /* UIScrollView+PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF36A1F6E694900FC2858 /* UIScrollView+PlaceholderView.m */; };
+		D9DCF36E1F6E6EC400FC2858 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF36D1F6E6EC400FC2858 /* SecondViewController.m */; };
+		D9DCF3711F6EC24300FC2858 /* 无商品.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF36F1F6EC24300FC2858 /* 无商品.png */; };
+		D9DCF3721F6EC24300FC2858 /* 无网.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF3701F6EC24300FC2858 /* 无网.png */; };
+		D9DCF3741F6EC3FD00FC2858 /* 沙发.png in Resources */ = {isa = PBXBuildFile; fileRef = D9DCF3731F6EC3FD00FC2858 /* 沙发.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FDE0769022049B28E06BDBE /* Pods-UIScrollViewPlaceholderView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollViewPlaceholderView.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollViewPlaceholderView/Pods-UIScrollViewPlaceholderView.release.xcconfig"; sourceTree = "<group>"; };
+		4099B93B9D4FB9BC48BA87FD /* Pods-UIScrollViewPlaceholderView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIScrollViewPlaceholderView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIScrollViewPlaceholderView/Pods-UIScrollViewPlaceholderView.debug.xcconfig"; sourceTree = "<group>"; };
+		C706A5139170E372F2B7833E /* libPods-UIScrollViewPlaceholderView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIScrollViewPlaceholderView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DCF34E1F6E68B800FC2858 /* UIScrollViewPlaceholderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIScrollViewPlaceholderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DCF3521F6E68B800FC2858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9DCF3541F6E68B800FC2858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,13 @@
 		D9DCF35D1F6E68B800FC2858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9DCF3601F6E68B800FC2858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9DCF3621F6E68B800FC2858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9DCF3691F6E694900FC2858 /* UIScrollView+PlaceholderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PlaceholderView.h"; sourceTree = "<group>"; };
+		D9DCF36A1F6E694900FC2858 /* UIScrollView+PlaceholderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PlaceholderView.m"; sourceTree = "<group>"; };
+		D9DCF36C1F6E6EC400FC2858 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D9DCF36D1F6E6EC400FC2858 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D9DCF36F1F6EC24300FC2858 /* 无商品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无商品.png"; sourceTree = "<group>"; };
+		D9DCF3701F6EC24300FC2858 /* 无网.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "无网.png"; sourceTree = "<group>"; };
+		D9DCF3731F6EC3FD00FC2858 /* 沙发.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "沙发.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC10838FED6760BAF17DA93 /* libPods-UIScrollViewPlaceholderView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44DA44459522AA0B0C46095D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C706A5139170E372F2B7833E /* libPods-UIScrollViewPlaceholderView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		823810B532A3D1CEC07458A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4099B93B9D4FB9BC48BA87FD /* Pods-UIScrollViewPlaceholderView.debug.xcconfig */,
+				3FDE0769022049B28E06BDBE /* Pods-UIScrollViewPlaceholderView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D9DCF3451F6E68B800FC2858 = {
 			isa = PBXGroup;
 			children = (
 				D9DCF3501F6E68B800FC2858 /* UIScrollViewPlaceholderView */,
 				D9DCF34F1F6E68B800FC2858 /* Products */,
+				823810B532A3D1CEC07458A3 /* Pods */,
+				44DA44459522AA0B0C46095D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +94,13 @@
 		D9DCF3501F6E68B800FC2858 /* UIScrollViewPlaceholderView */ = {
 			isa = PBXGroup;
 			children = (
+				D9DCF3681F6E691E00FC2858 /* UIScrollView+PlaceholderView */,
 				D9DCF3541F6E68B800FC2858 /* AppDelegate.h */,
 				D9DCF3551F6E68B800FC2858 /* AppDelegate.m */,
 				D9DCF3571F6E68B800FC2858 /* ViewController.h */,
 				D9DCF3581F6E68B800FC2858 /* ViewController.m */,
+				D9DCF36C1F6E6EC400FC2858 /* SecondViewController.h */,
+				D9DCF36D1F6E6EC400FC2858 /* SecondViewController.m */,
 				D9DCF35A1F6E68B800FC2858 /* Main.storyboard */,
 				D9DCF35D1F6E68B800FC2858 /* Assets.xcassets */,
 				D9DCF35F1F6E68B800FC2858 /* LaunchScreen.storyboard */,
@@ -79,6 +118,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9DCF3681F6E691E00FC2858 /* UIScrollView+PlaceholderView */ = {
+			isa = PBXGroup;
+			children = (
+				D9DCF3691F6E694900FC2858 /* UIScrollView+PlaceholderView.h */,
+				D9DCF36A1F6E694900FC2858 /* UIScrollView+PlaceholderView.m */,
+				D9DCF36F1F6EC24300FC2858 /* 无商品.png */,
+				D9DCF3701F6EC24300FC2858 /* 无网.png */,
+				D9DCF3731F6EC3FD00FC2858 /* 沙发.png */,
+			);
+			path = "UIScrollView+PlaceholderView";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9DCF3651F6E68B800FC2858 /* Build configuration list for PBXNativeTarget "UIScrollViewPlaceholderView" */;
 			buildPhases = (
+				16038203CFB263375BA31E90 /* [CP] Check Pods Manifest.lock */,
 				D9DCF34A1F6E68B800FC2858 /* Sources */,
 				D9DCF34B1F6E68B800FC2858 /* Frameworks */,
 				D9DCF34C1F6E68B800FC2858 /* Resources */,
+				EE826AE10D6FFF3CF99A7540 /* [CP] Embed Pods Frameworks */,
+				696AF428D7D84C8F7F9E966F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,19 +194,72 @@
 			files = (
 				D9DCF3611F6E68B800FC2858 /* LaunchScreen.storyboard in Resources */,
 				D9DCF35E1F6E68B800FC2858 /* Assets.xcassets in Resources */,
+				D9DCF3711F6EC24300FC2858 /* 无商品.png in Resources */,
+				D9DCF3721F6EC24300FC2858 /* 无网.png in Resources */,
+				D9DCF3741F6EC3FD00FC2858 /* 沙发.png in Resources */,
 				D9DCF35C1F6E68B800FC2858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16038203CFB263375BA31E90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		696AF428D7D84C8F7F9E966F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollViewPlaceholderView/Pods-UIScrollViewPlaceholderView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE826AE10D6FFF3CF99A7540 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIScrollViewPlaceholderView/Pods-UIScrollViewPlaceholderView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D9DCF34A1F6E68B800FC2858 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9DCF36E1F6E6EC400FC2858 /* SecondViewController.m in Sources */,
 				D9DCF3591F6E68B800FC2858 /* ViewController.m in Sources */,
 				D9DCF3561F6E68B800FC2858 /* AppDelegate.m in Sources */,
+				D9DCF36B1F6E694900FC2858 /* UIScrollView+PlaceholderView.m in Sources */,
 				D9DCF3531F6E68B800FC2858 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,10 +378,13 @@
 		};
 		D9DCF3661F6E68B800FC2858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4099B93B9D4FB9BC48BA87FD /* Pods-UIScrollViewPlaceholderView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = UIScrollViewPlaceholderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.UIScrollViewPlaceholderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,10 +393,13 @@
 		};
 		D9DCF3671F6E68B800FC2858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDE0769022049B28E06BDBE /* Pods-UIScrollViewPlaceholderView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 4J5JWPJ294;
 				INFOPLIST_FILE = UIScrollViewPlaceholderView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KuaiJianKang.UIScrollViewPlaceholderView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +425,7 @@
 				D9DCF3671F6E68B800FC2858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
