@@ -1,16 +1,27 @@
 ### UIScrollView及其子类的占位图
 
+#### 用到的三方
+1.[Masonry](https://github.com/SnapKit/Masonry)
+2.[RAC](https://github.com/ReactiveCocoa/ReactiveCocoa)
+
 #### 详情
 
-
+敬请期待
 
 
 
 #### 使用方法
 
-导入
+**1.导入头文件**
+
+#import "UIScrollView+PlaceholderView.h"
 
 
+**2.需要的时候直接调用方法**
 
-需要的时候调用
+```
+[self.tableView showPlaceholderViewWithType:CQPlaceholderViewTypeNoNetwork reloadBlock:^{
+[self getData];
+}];
+```
 
